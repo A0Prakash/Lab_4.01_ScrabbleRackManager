@@ -65,7 +65,7 @@ public class ScrabbleRackManager {
     private void setTiles(){
         for(int i = 0; i < 7; i++) {
             int temp = (int)(gameTiles.size() * Math.random());
-            System.out.println(gameTiles.get(temp));
+            //System.out.println(gameTiles.get(temp));
             myTiles.add(gameTiles.get(temp));
             gameTiles.remove(gameTiles.get(temp));
         }
@@ -126,6 +126,7 @@ public class ScrabbleRackManager {
                     System.out.println();
                 System.out.printf("%-14s", matches.get(i));
             }
+            System.out.println("");
             System.out.println("* denotes BINGO");
         }
     }
