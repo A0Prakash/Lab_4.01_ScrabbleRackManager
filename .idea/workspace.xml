@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77a75369-9c9f-4a34-8f42-3cacea59279c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_4.01_ScrabbleRackManager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_scrabble.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ScrabbleRackManager.java" afterDir="false" />
+    <list default="true" id="77a75369-9c9f-4a34-8f42-3cacea59279c" name="Changes" comment="ScrabbleRackManager">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScrabbleRackManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScrabbleRackManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +17,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Aarav" />
       </list>
     </option>
   </component>
@@ -65,12 +66,16 @@
       <workItem from="1679495969864" duration="1950000" />
       <workItem from="1679660329225" duration="4279000" />
       <workItem from="1679677390065" duration="2538000" />
-      <workItem from="1680014344160" duration="785000" />
+      <workItem from="1680014344160" duration="1490000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ScrabbleRackManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="ScrabbleRackManager" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

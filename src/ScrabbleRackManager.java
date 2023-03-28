@@ -75,7 +75,7 @@ public class ScrabbleRackManager {
      * displays the contents of the player's tile rack
      */
     public void printRack() {
-        System.out.println("Letters in the tile rack " + myTiles);
+        System.out.println("Letters in the rack: " + myTiles);
     }
 
     private boolean isPlayable(String word) {
@@ -115,11 +115,18 @@ public class ScrabbleRackManager {
      * prints all of the playable words based on the letters in the tile rack
      */
     public void printMatches(){
+        System.out.println("You can play the following words from the letters in your rack:");
         ArrayList<String> matches = getPlaylist();
-        for(int i = 0; i < matches.size(); i++) {
-            if((i) % 10 == 0)
-                System.out.println();
-            System.out.printf("%-14s", matches.get(i));
+        if(matches.size() == 0) {
+            System.out.println("Sorry, NO words can be played from those tiles.");
+        }
+        else {
+            for (int i = 0; i < matches.size(); i++) {
+                if ((i) % 10 == 0)
+                    System.out.println();
+                System.out.printf("%-14s", matches.get(i));
+            }
+            System.out.println("* denotes BINGO");
         }
     }
 
